@@ -1,0 +1,911 @@
+@media (max-width: 1680px) {
+    footer .left,
+    nav .left {
+        min-width: unset;
+    }
+    nav .wrapper {
+        max-width: 1300px;
+    }
+    .hero .wrapper,
+    .wrapper {
+        max-width: 1250px;
+    }
+    .hero .row {
+        padding-right: 0;
+    }
+    .hero .row .left h1 {
+        font-size: 100px;
+    }
+    .hero .gif1 {
+        max-width: 633px;
+        bottom: -320px;
+        left: calc(50% - 660px);
+    }
+    .hero .row .left h2 {
+        font-size: 40px;
+    }
+    .subt {
+        font-size: 80px;
+    }
+    .play {
+        min-height: unset;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .why {
+        padding-top: 100px;
+        min-height: 1000px;
+    }
+    .why h2 {
+        max-width: 100%;
+    }
+    .why .boxes {
+        margin-top: 100px;
+    }
+    .why .boxes {
+        max-width: 800px;
+    }
+    .why .boxes .box {
+        min-height: 298px;
+        padding: 32px 48px;
+    }
+    .why .boxes .box p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .why .gif {
+        max-width: 720px;
+        left: calc(50% - 700px);
+    }
+    .joinus .right .box p,
+    .audit p {
+        font-size: 24px;
+    }
+    .audit {
+        min-height: 850px;
+    }
+    .audit .gif {
+        max-width: 460px;
+        right: calc(50% - 590px);
+    }
+    .joinus .right .box {
+        max-width: 620px;
+    }
+    .joinus .gif {
+        max-width: 1000px;
+        left: calc(50% - 770px);
+    }
+    .joinus {
+        min-height: 760px;
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .hero .wrapper,
+    .wrapper {
+        max-width: 980px;
+    }
+    footer .row .middle ul,
+    nav .row .middle ul {
+        gap: 13px;
+    }
+
+    footer .row .middle ul li a,
+    nav .row .middle ul li a {
+        font-size: 18px;
+    }
+    footer .row .right,
+    nav .right {
+        gap: 13px;
+    }
+
+    .hero .gif1 {
+        max-width: 480px;
+        bottom: -140px;
+        left: calc(50% - 500px);
+    }
+    .hero .row .left h2 {
+        font-size: 37px;
+    }
+    .subt {
+        font-size: 60px;
+    }
+    .play .videof {
+        height: 500px;
+    }
+    .audit p {
+        max-width: 510px;
+    }
+    .audit .audit-gif {
+        right: calc(50% - 630px);
+        max-width: 670px;
+        bottom: -90px;
+    }
+    .roadmap .row .box p {
+        font-size: 16px;
+    }
+    .joinus p {
+        max-width: 465px;
+    }
+    .joinus .joinus-gif {
+        max-width: 690px;
+        bottom: -140px;
+        right: calc(50% - 563px);
+    }
+    .roadmap h2 {
+        margin-bottom: 105px;
+    }
+    .roadmap .street1 {
+        width: 592px;
+        min-width: 592px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero .wrapper,
+    .wrapper {
+        max-width: 700px;
+    }
+    nav .row .middle ul {
+        gap: 30px;
+    }
+    nav .row .middle ul li a {
+        color: #fff;
+    }
+    nav {
+        .onlymobile {
+            display: block;
+        }
+    }
+    nav .middle {
+        position: relative;
+        left: unset;
+        right: unset;
+    }
+    nav .left {
+        position: relative;
+        z-index: 99999999;
+    }
+    nav .middle {
+        position: fixed;
+        flex-direction: column;
+        .mobileview {
+            display: flex;
+        }
+        ul {
+            flex-direction: column;
+        }
+        top: 0px;
+        left: 0;
+        right: 0;
+        gap: 24px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        max-height: calc(100vh - 91px);
+        overflow: auto;
+        justify-content: start;
+        visibility: hidden;
+        opacity: 0;
+        transition: all ease 0.5s;
+
+        width: calc(100% - 10px);
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        border-radius: 8px;
+        // border: 3px solid var(--primary, #ffae00);
+        background: linear-gradient(rgb(0, 2, 27) 0%, rgb(0, 2, 27) 90%, rgba(0, 2, 27, 0) 100%);
+        // box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 1);
+        padding-bottom: 100px;
+    }
+    .mobile-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-left: 3px;
+    }
+    nav {
+        min-height: 82px;
+    }
+    nav .right {
+        // display: none;
+        .btn-nav {
+            display: none;
+        }
+    }
+    nav {
+        .lines {
+            display: flex !important;
+            flex-direction: column;
+            gap: 3px;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 8px;
+            background: transparent;
+            border: 2px solid #f60;
+            width: 44px;
+            height: 44px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
+            .line {
+                width: 18px;
+                height: 2px;
+                background-color: #f60;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+    nav .socm {
+        display: none;
+    }
+    .navbar.active {
+        // background-color: #fff;
+        position: fixed;
+    }
+    .navbar.active .lines {
+        .line:nth-child(1) {
+            transform: rotate(50deg);
+        }
+        .line:nth-child(2) {
+            transform: rotate(-50deg);
+            margin-top: -5px;
+        }
+        .line:nth-child(3) {
+            transform: rotate(50deg);
+            margin-top: -7px;
+            opacity: 0;
+        }
+    }
+    .navbar.active .middle {
+        opacity: 1;
+        visibility: visible;
+        top: 90px;
+        z-index: 9999;
+    }
+    nav .row .middle ul li a {
+        font-size: 24px;
+    }
+    .hero .connect-wallet {
+        // max-width: 600px;
+        margin: auto;
+    }
+    .hero .row {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 400px;
+    }
+    .hero .row {
+        padding-top: 50px;
+    }
+    .hero .gif1 {
+        max-width: 400px;
+        bottom: -230px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .why h2 span,
+    .subt {
+        font-size: 50px;
+    }
+    .play .videof {
+        height: 360px;
+    }
+    .play .videoplace {
+        margin-top: 30px;
+    }
+    .play .videoplace .place {
+        max-width: 100px;
+    }
+    .why .boxes .box h3 {
+        font-size: 20px;
+    }
+    .why .boxes {
+        margin-top: 0px;
+        width: 100%;
+        right: unset;
+    }
+    .why h2 {
+        text-align: center;
+    }
+    .why .boxes .box {
+        min-height: 250px;
+        padding: 24px 48px 0;
+        width: calc(50% - 3px);
+    }
+    .why .gif {
+        max-width: 500px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .joinus .right-g,
+    .audit .left-g {
+        background: linear-gradient(180deg, rgba(0, 2, 27, 0.76) 84.62%, rgba(0, 2, 27, 0) 100%);
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        bottom: unset;
+    }
+    .audit .gif {
+        max-width: 340px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .joinus .right .box h2 {
+        text-align: center;
+    }
+    .joinus .right .box .btns {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .audit p {
+        font-size: 21px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .audit h2 {
+        text-align: center;
+    }
+
+    .audit {
+        padding-bottom: 500px;
+    }
+    .audit .btns {
+        align-items: center;
+        justify-content: center;
+    }
+    .tokenomics h3 {
+        font-size: 28px;
+    }
+
+    .joinus .gif {
+        max-width: 800px;
+        left: calc(50% + 50px);
+        transform: translateX(-50%);
+    }
+    .tokenomics .gif {
+        max-width: 340px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .tokenomics .boxes {
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .tokenomics .t-left-s,
+    .tokenomics .t-right-s {
+        display: none;
+    }
+    .tokenomics {
+        padding-bottom: 500px;
+    }
+    .tokenomics .row {
+        justify-content: center;
+    }
+    .tokenomics .t-gif {
+        max-width: 343px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .roadmap .row .box h3 {
+        font-size: 18px;
+    }
+    .roadmap .row .box p {
+        margin-top: 5px;
+    }
+
+    .roadmap .row .box .icon {
+        width: 60.644px;
+        height: 60.644px;
+        left: 100px;
+        top: 30px;
+        right: unset;
+        transform: unset;
+        right: unset;
+        svg {
+            max-width: 50%;
+        }
+    }
+    .roadmap .row.row-oder .box,
+    .roadmap .row .box {
+        padding: 30px 80px 30px 100px;
+        justify-content: start;
+    }
+    .roadmap .row .box p,
+    .roadmap .row .box h3 {
+        text-align: left;
+    }
+    .roadmap .row .box p {
+        font-size: 17px;
+    }
+    .roadmap h2 {
+        margin-bottom: 117px;
+        text-align: center;
+    }
+    .roadmap .row {
+        margin-bottom: 110px;
+    }
+
+    .roadmap .row .box h3 {
+        padding-left: 110px;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .roadmap .row .box .no h4 {
+        display: none;
+    }
+    .roadmap .row.row-oder .box .no,
+    .roadmap .row .box .no {
+        right: unset;
+        top: 29px;
+        left: 165px;
+        transform: unset;
+    }
+    .roadmap .row .box .no h5 {
+        color: #f60;
+        text-align: center;
+        font-family: "Pure Joy";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-shadow: unset;
+        span {
+            display: none;
+        }
+    }
+
+    .joinus .left-gr {
+        left: 0;
+        right: 0;
+        bottom: 200px;
+        top: 0;
+        width: 100%;
+        transform: scaleY(-1);
+        background: linear-gradient(
+            0deg,
+            rgba(0, 2, 27, 0.8) 14.98%,
+            rgba(0, 2, 27, 0.7) 46.15%,
+            rgba(0, 2, 27, 0) 100%
+        );
+    }
+    .joinus {
+        padding-bottom: 500px;
+    }
+    .joinus h2 {
+        text-align: center;
+    }
+    .joinus p {
+        text-align: center;
+        font-size: 21px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .joinus .btns {
+        display: none;
+    }
+    .joinus .joinus-gif {
+        max-width: 470px;
+        bottom: -150px;
+        right: calc(50% - 233px);
+        z-index: 2;
+    }
+    .bottom-g {
+        z-index: 3;
+    }
+    .joinus .bottom-gr {
+        z-index: 3;
+    }
+    footer .row {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav .middle {
+        max-width: 470px;
+        width: calc(100% - 10px);
+    }
+    .roadmap h2 {
+        margin-bottom: 68px;
+    }
+    .hero .connect-wallet {
+        padding: 20px 10px;
+        min-height: unset;
+    }
+    .hero .connect-wallet .time .box {
+        width: calc(25% - 2px);
+    }
+    .hero .connect-wallet .row-inputs {
+        flex-direction: column;
+        width: 100%;
+        .input {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 0px;
+        }
+    }
+    .hero .wrapper,
+    .wrapper,
+    .wrapper,
+    nav .wrapper {
+        max-width: 500px;
+    }
+    .hero .titlepl h1 {
+        margin-top: -120px;
+    }
+    .hero .row .left h1 {
+        font-size: 70px;
+    }
+    .about h2 span,
+    .subt {
+        font-size: 40px;
+    }
+    .play .videof {
+        height: 260px;
+    }
+    .about {
+        padding-bottom: 500px;
+    }
+    .about .why-gif {
+        max-width: 620px;
+        bottom: -200px;
+        left: calc(50% - 280px);
+    }
+    .about .boxes .box .why-gif3 {
+        transform: rotate(90deg);
+        left: -240px;
+        top: 80px;
+    }
+    .about .boxes .box .cont {
+        padding: 30px 20px;
+        max-width: 320px;
+        margin: auto;
+    }
+    .about .boxes .box p {
+        font-size: 20px;
+    }
+    .about .boxes {
+        margin-top: 30px;
+    }
+
+    .why {
+        padding-bottom: 300px;
+    }
+    .why .boxes {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: unset;
+        margin-top: 50px;
+        .box {
+            width: 100%;
+            max-width: 360px;
+        }
+    }
+
+    .tokenomics .boxes {
+        margin: auto;
+        max-width: 340px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .tokenomics .boxes .box {
+        width: calc(50% - 10px);
+        background: url(../img/tok-phone.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        min-height: 270px;
+        padding: 20px;
+        padding-left: 24px;
+    }
+    .tokenomics .boxes .box h3 {
+        font-size: 40px;
+    }
+    .tokenomics .boxes .box p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 22px;
+        text-align: center;
+        max-width: 130px;
+    }
+    .tokenomics .gif {
+        max-width: 310px;
+    }
+    .roadmap .map-container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) scale(0.65);
+        top: 0;
+        transform-origin: top;
+    }
+    .roadmap {
+        padding-top: 60px;
+    }
+    .roadmap h2 {
+        margin-bottom: 84px;
+    }
+    .roadmap .row {
+        margin-bottom: 57px;
+    }
+    .roadmap .row .box {
+        width: 600px;
+        max-width: 600px;
+        min-width: 600px;
+        height: 195px;
+        min-height: unset;
+        margin-left: calc(50% - 165px);
+        transform: translateX(-50%);
+        border-radius: 100px;
+        padding: 10px;
+        padding-left: 315px;
+    }
+    .roadmap {
+        height: 1280px;
+        min-height: unset;
+    }
+    .roadmap .row.row-oder .box {
+        margin-right: calc(50% - 165px);
+        margin-left: unset;
+        transform: translateX(50%);
+        padding: 10px;
+        padding-right: 315px;
+        padding-left: 50px;
+    }
+    .roadmap .row .box h3 {
+        font-size: 15px;
+        padding-left: 75px;
+        min-height: 50px;
+        margin-bottom: 4px;
+    }
+    .roadmap .row.row-oder .box .no,
+    .roadmap .row .box .no {
+        left: 367px;
+        top: 18px;
+    }
+    .roadmap .row .box .no h5 {
+        font-size: 35px;
+    }
+    .roadmap .row .box .icon {
+        left: 314px;
+        top: 7px;
+        width: 50px;
+        height: 50px;
+    }
+    .roadmap .row.row-oder .icon {
+        left: 50px;
+    }
+    .roadmap .row.row-oder .box .no {
+        left: 102px;
+    }
+    .roadmap .row .box p {
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    .roadmap .boxes .box .inside .wf {
+        width: 900px;
+    }
+    .roadmap .boxes .box.orderc .inside,
+    .roadmap .boxes .box .inside {
+        max-width: 260px;
+    }
+    .roadmap .boxes .box.orderc .inside .no,
+    .roadmap .boxes .box .inside .no {
+        top: -200px;
+    }
+    .roadmap .boxes .box {
+        margin-bottom: 170px;
+    }
+    .tokenomics .row h2,
+    .roadmap h2 {
+        text-align: center;
+        text-shadow: 4px 4px 0px #000d27;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+    }
+    .joinus .gif {
+        max-width: 500px;
+        left: calc(50% + 20px);
+        z-index: 2;
+    }
+    .joinus {
+        padding-bottom: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .roadmap .boxes .box.orderc,
+    .roadmap .boxes .box {
+        justify-content: center;
+    }
+
+    .language-switcher .choosen .flag-icon {
+        width: 26px;
+        min-width: 26px;
+        height: 26px;
+    }
+    .roadmap .boxes {
+        max-width: 300px;
+        margin-top: 200px;
+    }
+    .roadmap .boxes .box .inside h3 {
+        font-size: 18px;
+    }
+    .roadmap .boxes .box .inside p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .roadmap .boxes .box.orderc .inside,
+    .roadmap .boxes .box .inside {
+        max-width: 200px;
+        padding-top: 10px;
+    }
+    .roadmap .boxes .box .inside .wf {
+        width: 700px;
+        top: calc(50% - 40px);
+    }
+    .roadmap .boxes .box.orderc .inside .no,
+    .roadmap .boxes .box .inside .no {
+        top: -180px;
+        transform: scale(0.6);
+    }
+    .roadmap .boxes .box {
+        margin-bottom: 190px;
+    }
+    .roadmap {
+        padding-bottom: 0;
+        min-height: unset;
+    }
+    footer .row .middle ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about .boxes .box .why-gif3 {
+        left: calc(50% - 480px);
+    }
+    .audit .btns {
+        flex-direction: column;
+        a {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 430px) {
+    .hero .connect-wallet .time .box {
+        width: calc(25% - 3px);
+    }
+    .roadmap h2 {
+        margin-bottom: 93px;
+    }
+    .joinus {
+        min-height: unset;
+        padding-top: 100px;
+    }
+    .joinus .right .box .btns {
+        display: none;
+    }
+    .hero .gif1 {
+        // max-width: 500px;
+        // bottom: -80px;
+        // left: calc(50% - 270px);
+    }
+    nav .row {
+        gap: 10px;
+    }
+    .about h2 span,
+    .subt {
+        font-size: 32px;
+    }
+    .play .videof {
+        height: 230px;
+    }
+    .audit .audit-gif {
+        right: calc(50% - 180px);
+        max-width: 380px;
+        bottom: -70px;
+    }
+    .tokenomics .row .boxes .box {
+        background-size: 100%;
+        font-size: 20px;
+        min-height: 123px;
+        padding-top: 3px;
+        max-width: 290px;
+    }
+    .tokenomics .row .boxes {
+        margin-top: 20px;
+    }
+    .tokenomics .row h3 {
+        font-size: 28px;
+    }
+    .joinus .right .box p {
+        font-size: 20px;
+    }
+    .joinus .joinus-gif {
+        max-width: 410px;
+        bottom: -100px;
+        right: calc(50% - 200px);
+    }
+    footer .row .right {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        .btn-nav {
+            width: 100%;
+            max-width: 100%;
+        }
+        .socm {
+            order: 2;
+        }
+    }
+    .about .bg-down,
+    .bottom-gr {
+        bottom: -5px !important;
+    }
+    .why .boxes {
+        width: 100%;
+    }
+    .why .boxes {
+        min-width: 350px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .tokenomics .right {
+        min-width: 350px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 389px) {
+    .hero .connect-wallet .input .p-place {
+        font-size: 12px;
+    }
+    .hero .connect-wallet .lastp .l a {
+        font-size: 12px;
+    }
+    .hero .connect-wallet .lastp .r a {
+        font-size: 11px;
+    }
+    .hero .connect-wallet .btns-cw .active {
+        min-width: calc(50% - 2px);
+    }
+    .hero .connect-wallet .lastp .l a,
+    .hero .connect-wallet .lastp .r a {
+        font-size: 11px;
+    }
+    .hero .connect-wallet .s-boxes .box h3 {
+        font-size: 14px;
+    }
+    .play .videof {
+        height: 200px;
+    }
+    .play .videoplace .place {
+        max-width: 70px;
+    }
+    .hero .titlepl h1 {
+        margin-top: -80px;
+    }
+    .about .boxes .box .cont {
+        padding: 30px 5px;
+    }
+}
